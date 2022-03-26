@@ -1,0 +1,41 @@
+.post__container {
+ 
+  width: 600px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.post__header {
+  display: flex;
+  height: 65px;
+}
+.post__header__img {
+  margin: 15px;
+}
+.post_img {
+}
+.post__header__text {
+  font-weight: 700;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.post__description{
+    display:flex;
+    margin-left:15px;
+}
+.post__image{
+    margin:10px 0;
+}
+.post_likeCountContainer{
+    display:flex;
+    height: 40px;
+    padding: 0px 10px;
+}
+.post__like{
+
+}
+.post__img{
+    height: 20px;
+}
+.post__likecount{
+margin-left:5px;
+}
