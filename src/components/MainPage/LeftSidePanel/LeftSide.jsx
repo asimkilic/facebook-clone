@@ -5,6 +5,11 @@ import "./LeftSide.css";
 import covid from "../../../images/covid.png";
 import groups from "../../../images/groups.png";
 import memories from "../../../images/memories.png";
+import messengerKids from "../../../images/messengerkids.png";
+import ads from "../../../images/ads.png";
+import adsmanager from "../../../images/admanager.png";
+import blood from "../../../images/blood.png";
+import business from "../../../images/business.png";
 
 const LeftSide = () => {
   const [data, setData] = useState([]);
@@ -31,6 +36,26 @@ const LeftSide = () => {
       {
         image: memories,
         text: "Memories",
+      },
+      {
+        image: messengerKids,
+        text: "Messenger Kids",
+      },
+      {
+        image: ads,
+        text: "Ad Center",
+      },
+      {
+        image: adsmanager,
+        text: "Ads Manager",
+      },
+      {
+        image: blood,
+        text: "Blood Donations",
+      },
+      {
+        image: business,
+        text: "Business Manager",
       },
     ];
     setData(jsondata);
